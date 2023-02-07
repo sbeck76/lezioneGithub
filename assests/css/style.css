@@ -1,0 +1,20 @@
+section {
+    justify-content: center !important;
+    display: flex !important;
+}
+.card {
+   
+    
+    margin-right: 30px !important;
+    --bs-card-group-margin: 300px !important;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    height: var(--bs-card-height);
+    word-wrap: break-word;
+    background-color: var(--bs-card-bg);
+    background-clip: border-box;
+    border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+    border-radius: var(--bs-card-border-radius);
+}
