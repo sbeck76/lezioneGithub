@@ -38,3 +38,32 @@ section {
     border: var(--bs-card-border-width) solid var(--bs-card-border-color);
     border-radius: var(--bs-card-border-radius);
 }
+/* Modifiche Footer */
+.paragrafo h3{
+    color: rgb(255, 255, 255);
+    font-size: small;
+}
+.paragrafo h4{
+    color: red;
+    font-size: small;
+}
+.contenitorecontatti{
+    display: flex;
+    margin: 10px;
+    margin-left: 260px;
+    text-align: center;
+}
+.contenitorecontatti h4{
+    margin: 10px;
+    color: black;
+    border: solid 1px;
+    border-radius: 10px;
+}
+.contenitorecontatti h5{
+    font-style: italic;
+    justify-content: center;
+
+}
+footer h3{
+    color: rgb(244, 232, 0);
+}
